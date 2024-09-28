@@ -12,7 +12,7 @@ def navbar() -> rx.Component:
         #         rx.hstack(
         #             rx.badge(
         #                 rx.icon(tag="glass-water", size=28),
-        #                 rx.heading("dramd", size="6"),
+        #                 rx.heading("dramr", size="6"),
         #                 radius="large",
         #                 # align="center",
         #                 # color_scheme="purple",
@@ -46,7 +46,7 @@ def navbar() -> rx.Component:
             rx.hstack(
                 rx.hstack(
                     rx.icon(tag="glass-water", size=28),
-                    rx.heading("dramd", size="6"),
+                    rx.heading("dramr", size="6"),
                     align_items="center",
                 ),
                 rx.menu.root(

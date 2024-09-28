@@ -23,7 +23,7 @@ def index() -> rx.Component:
                     rx.badge(
                         rx.icon(tag="glass-water", size=28),
                         rx.heading(
-                            "dramd",
+                            "dramr",
                             size="6",
                             justify="end",
                         ),
@@ -41,7 +41,7 @@ def index() -> rx.Component:
         ),
         rx.container(
             rx.vstack(
-                rx.heading("Welcome to dramd!", size="9"),
+                rx.heading("Welcome to dramr!", size="9"),
                 rx.text(
                     "Get started by editing ",
                     rx.code(f"{config.app_name}/{config.app_name}.py"),
